@@ -1,0 +1,56 @@
+#lblHeading {
+    -fx-font-family: "Abyssinica SIL";
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+    -fx-text-fill: darkblue;
+
+}
+
+#lblVersion {
+    -fx-font-weight: bold;
+}
+
+#lblCopyRight {
+    -fx-font-weight: bold;
+}
+
+#root {
+    -fx-background-color: #e8e2e2;
+}
+
+#aboutRoot {
+    -fx-background-color: linear-gradient(to top right, #de9f87, #9292d0);
+}
+
+#btnDown, #btnUp {
+
+    -fx-background-color: rgb(134, 134, 218);
+
+}
+
+#btnReplace, #btnReplaceAll {
+
+    -fx-background-color: rgb(239, 148, 148);
+
+}
+
+#btnReplace:hover {
+    -fx-background-color: rgb(239, 148, 148, 0.5);
+
+}
+
+#btnReplaceAll:hover {
+    -fx-background-color: rgb(239, 148, 148, 0.5);
+
+}
+
+
+#btnDown:hover {
+    -fx-background-color: rgba(134, 134, 218, 0.5);
+
+}
+
+#btnUp:hover {
+    -fx-background-color: rgba(134, 134, 218, 0.5);
+
+}
